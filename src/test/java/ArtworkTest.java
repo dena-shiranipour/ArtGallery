@@ -45,20 +45,23 @@ public class ArtworkTest {
 //    test for getting artist
     @Test
     public void canGetArtist(){
-//        
+//    check that using the getter method is equal to the artist object created in the setup
         assertThat(artwork.getArtist()).isEqualTo(artist);
     }
 
 //    test for setting price
     @Test
     public void canSetPrice(){
+//        set price to a different number
         artwork.setPrice(200);
+//        use the getter to check if the price has changed to this number
         assertThat(artwork.getPrice()).isEqualTo(200);
     }
 
 //    test for getting price
     @Test
     public void canGetPrice(){
+//        check that using the getter method gives us a value equal to the price passed into the artwork constructor in the setup
         assertThat(artwork.getPrice()).isEqualTo(100);
     }
 }
