@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class ArtistTest {
+//    declare object of type Artist
     Artist artist;
 
     @BeforeEach

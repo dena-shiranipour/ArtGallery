@@ -4,8 +4,8 @@ public class Gallery {
 
     //attributes
     private String name;
-    private double till;
-    private ArrayList<Artwork> stock;
+    public double till;
+    public ArrayList<Artwork> stock;
 
     //constructor
 
@@ -13,7 +13,6 @@ public class Gallery {
         this.name = name;
         this.till = 0;
         this.stock = new ArrayList<Artwork>();
-
     }
 
     //methods
